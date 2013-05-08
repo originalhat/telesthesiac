@@ -1,4 +1,4 @@
-# neko
+# telesthesiac
 
 Operation Neko International.
 
