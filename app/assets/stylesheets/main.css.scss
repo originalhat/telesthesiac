@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Russo+One|Righteous);
+
+/*fonts*/
+.russo-one {font-family: 'Russo One', sans-serif;}
+.righteous {font-family: 'Righteous', cursive;}
+
+body {color: #171D18;}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Righteous";
+}
+
+#mega-header {
+  font-size: 800%;
+  font-family: "Russo One";
+  padding-bottom: 30px;
+}
+
+/*banner*/
+#banner-background {
+  background-color: #afafaf;
+  height: 170px;
+  width: 100%;
+}
+
+#banner-headings {
+  padding: {
+    top: 30px;
+    left: 20px;
+    right: 20px;
+  }
+}
+
+/*content*/
+.page-fluid {
+  margin: 0 auto;
+  max-width: 990px;
+  padding: {
+    left: 20px;
+    right: 20px;
+  }
+}
+
+#content-highlights-background {
+  background-color: #e0e0e0;
+  height: 640px;
+  width: 100%;
+}
+
+#content-article-background {
+  background-color: #e0e0e0;
+  height: 600px;
+  width: 100%;
+}
+
+#content-divider {
+  background-color: #000;
+  height: 7px;
+  width: 100%;
+}
+
+.important-text { font-size: 120%; }
