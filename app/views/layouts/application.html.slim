@@ -1,7 +1,7 @@
 doctype
 html
   head
-    title Neko
+    title Telesthesiac - Manifesto à la Crème
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -9,9 +9,10 @@ html
     #wrap
       .navbar
         .navbar-inner
-          a.brand
-            h1 Telesthesiac
-      .container
+          .page-fluid
+            a.brand
+              h1 Telesthesiac
+      .container-fluid
         = yield
       #push
     #footer

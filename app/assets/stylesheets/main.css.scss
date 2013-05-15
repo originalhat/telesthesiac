@@ -31,7 +31,7 @@ body {
   background-color: #f0f0f0;
 }
 
-/* sticky footer responsive CSS fixes */
+/* responsive CSS fixes */
 @media (max-width: 767px) {
   body {
     margin-left: -20px;
@@ -46,4 +46,26 @@ body {
   -webkit-border-radius: 0 !important;
  -moz-border-radius: 0 !important;
   border-radius: 0 !important;
+}
+
+/*content*/
+.page-fluid {
+  margin: 0 auto;
+  max-width: 990px;
+}
+
+.media-container {
+  background-color: #dbdfe3;
+  height: 100%;
+  width: 100%;
+  max-height: 230px;
+}
+
+.inner-container {
+  padding-left: 10px;
+}
+
+.media-thumbnail {
+  text-align: right;
+  max-height: 220px;
 }
