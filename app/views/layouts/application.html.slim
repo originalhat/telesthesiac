@@ -6,8 +6,14 @@ html
     = javascript_include_tag "application"
     = csrf_meta_tags
   body
-    #banner-background
-      #banner-headings.page-fluid
-        h1#mega-header Telesthesiac
-        h2  A Manifesto of Digital Disobedience
-    = yield
+    #wrap
+      .navbar
+        .navbar-inner
+          a.brand
+            h1 Telesthesiac
+
+      .container
+
+        = yield
+    / #push
+    #footer
